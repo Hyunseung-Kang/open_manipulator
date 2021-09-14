@@ -1,0 +1,23 @@
+Open_manipulator_controller/src 경로에 .py파일 복사
+
+$ chmod +x xxx.py
+
+아래 명령어들 차례대로 실행
+
+rosrun open_manipulator_controller pub.py 0.296 0.0 0.204 2
+rosrun open_manipulator_controller pub.py 0.134 0.0 0.241 2
+rosrun open_manipulator_controller pub.py 0.296 0.0 0.204 2
+
+rosrun open_manipulator_controller pub.py 0.102 0.294 0.100 2
+rosrun open_manipulator_controller pub.py 0.100 0.180 0.170 2
+rosrun open_manipulator_controller pub.py 0.100 0.180 0.270 2
+
+
+
+
+
+
+
+
+rosrun open_manipulator_controller pub.py 0.1 0.1 0.19 1
+rosrun open_manipulator_controller pub.py 0.2 0 0.19 1
